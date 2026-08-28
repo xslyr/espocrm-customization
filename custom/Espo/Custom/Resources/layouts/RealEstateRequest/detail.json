@@ -1,0 +1,85 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "status"
+                },
+                {
+                    "name": "contacts"
+                }
+            ],
+            [
+                {
+                    "name": "propertyType"
+                },
+                {
+                    "name": "price"
+                },
+                {
+                    "name": "cPermuta"
+                },
+                {
+                    "name": "matchingPropertyCount"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "cCondominium"
+                },
+                {
+                    "name": "cCityLink"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "customLabel": "Localidade"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "square"
+                },
+                {
+                    "name": "bedroomCount"
+                },
+                {
+                    "name": "bathroomCount"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "cAdicionais"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Detalhes"
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "fields": {
+        "assignedUser": {
+            "defaultAttributes": {
+                "assignedUserId": "6a185896cbb81a8c1",
+                "assignedUserName": "Juliana Carneiro"
+            }
+        }
+    },
+    "collection": {
+        "orderBy": "dateStart",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": false
+}

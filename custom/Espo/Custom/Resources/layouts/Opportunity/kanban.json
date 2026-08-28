@@ -1,0 +1,20 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "align": "left",
+        "isLarge": true
+    },
+    {
+        "name": "contact"
+    },
+    {
+        "name": "amount",
+        "align": "left"
+    },
+    {
+        "name": "streamUpdatedAt",
+        "align": "right",
+        "isMuted": true
+    }
+]

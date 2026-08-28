@@ -1,0 +1,59 @@
+{
+    "fields": {
+        "matchingPropertyCount": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "notIn",
+                        "attribute": "status",
+                        "value": [
+                            "Completed",
+                            "Canceled",
+                            "Lost"
+                        ]
+                    }
+                ]
+            }
+        },
+        "cLostReason": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "equals",
+                                "attribute": "status",
+                                "value": "Lost"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "status",
+                                "value": "Canceled"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "equals",
+                                "attribute": "status",
+                                "value": "Lost"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "status",
+                                "value": "Canceled"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

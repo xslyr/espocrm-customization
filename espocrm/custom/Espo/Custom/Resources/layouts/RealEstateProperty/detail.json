@@ -1,0 +1,149 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "cRecordId"
+                },
+                {
+                    "name": "cTitlewp"
+                },
+                {
+                    "name": "cIdwp"
+                },
+                {
+                    "name": "cStatuswp"
+                }
+            ],
+            [
+                {
+                    "name": "cUrlwp"
+                },
+                {
+                    "name": "cUrlGdrive"
+                }
+            ],
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "price"
+                },
+                {
+                    "name": "status"
+                },
+                {
+                    "name": "matchingRequestCount"
+                }
+            ],
+            [
+                {
+                    "name": "requestType"
+                },
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "contacts"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "cLatitude"
+                },
+                {
+                    "name": "cLongitude"
+                },
+                {
+                    "name": "cCondominium"
+                }
+            ],
+            [
+                {
+                    "name": "addressStreet"
+                },
+                {
+                    "name": "cAddressNeighbor"
+                },
+                {
+                    "name": "addressPostalCode"
+                }
+            ],
+            [
+                {
+                    "name": "addressCity"
+                },
+                {
+                    "name": "addressState"
+                },
+                {
+                    "name": "addressCountry"
+                }
+            ],
+            [
+                {
+                    "name": "cUrlgooglemaps"
+                },
+                {
+                    "name": "cUrlvideo"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Localidade"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "square"
+                },
+                {
+                    "name": "cUsefulsquare"
+                },
+                {
+                    "name": "cLarguraComprimento"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "bedroomCount"
+                },
+                {
+                    "name": "bathroomCount"
+                },
+                {
+                    "name": "cSuite"
+                },
+                {
+                    "name": "cVagasdegaragem"
+                }
+            ],
+            [
+                {
+                    "name": "cAdicionais"
+                }
+            ],
+            [
+                {
+                    "name": "cDescricao"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Details"
+    }
+]

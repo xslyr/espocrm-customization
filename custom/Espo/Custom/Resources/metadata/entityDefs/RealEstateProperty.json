@@ -1,0 +1,454 @@
+{
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "addressCity",
+            "addressStreet",
+            "cDescricao",
+            "cTitlewp",
+            "cAddressNeighbor"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": false,
+    "fields": {
+        "images": {
+            "sourceList": [],
+            "accept": [],
+            "maxFileSize": 2
+        },
+        "type": {
+            "default": "Apartment",
+            "style": {
+                "Apartment": null,
+                "Separate House": null,
+                "Land Lot": null,
+                "Farm": null,
+                "Office": null,
+                "Room": null,
+                "Warehouse": null,
+                "Retail": null
+            },
+            "options": [
+                "Apartment",
+                "Separate House",
+                "Land Lot",
+                "Farm",
+                "Office",
+                "Room",
+                "Warehouse",
+                "Retail"
+            ],
+            "required": true
+        },
+        "streamUpdatedAt": {
+            "minuteStep": 30
+        },
+        "status": {
+            "style": {
+                "New": "success",
+                "Assigned": "warning",
+                "In Process": "warning",
+                "Completed": "primary",
+                "Canceled": "danger",
+                "Lost": "danger"
+            }
+        },
+        "requestType": {
+            "default": "Sale",
+            "optionsReference": "RealEstateRequest.type"
+        },
+        "floor": {
+            "default": 0,
+            "min": 0,
+            "isMatching": true
+        },
+        "priceCurrency": {
+            "default": "BRL"
+        },
+        "cAddressNeighbor": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true,
+            "required": true
+        },
+        "cDescricao": {
+            "type": "wysiwyg",
+            "height": 300,
+            "minHeight": 200,
+            "isCustom": true,
+            "required": true
+        },
+        "cCondominium": {
+            "type": "link"
+        },
+        "cAdicionais": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "default": [],
+            "options": [
+                "Alarme",
+                "Ar-Condicionado",
+                "Automação Residencial",
+                "Baias/Cocheiras",
+                "Câmeras de Segurança",
+                "Campo de Futebol",
+                "Canil",
+                "Casa do Caseiro",
+                "Cerca Elétrica",
+                "Churrasqueira",
+                "Closet",
+                "Cobertura",
+                "Duplex",
+                "Energia Trifásica",
+                "Fechadura Eletrônica",
+                "Galpão/Celeiro",
+                "Gerador de Energia",
+                "Horta",
+                "Interfone",
+                "Internet(Fibra ou Satélite)",
+                "Jacuzi",
+                "Jardim/Paisagismo",
+                "Lago/Açude",
+                "Lavabo",
+                "Móveis Planejados",
+                "Painéis Solares",
+                "Piscina",
+                "Playground Infantil",
+                "Poço Artesiano",
+                "Pomar",
+                "Portão Eletrônico",
+                "Quadra de Tênis/Beach Tennis",
+                "Quadra Poliesportiva",
+                "Quarto de Serviço",
+                "Sacada",
+                "Sauna",
+                "Torneira Aquecida",
+                "Triplex",
+                "Varanda Gourmet"
+            ],
+            "style": {
+                "Alarme": null,
+                "Ar-Condicionado": null,
+                "Automação Residencial": null,
+                "Baias/Cocheiras": null,
+                "Câmeras de Segurança": null,
+                "Campo de Futebol": null,
+                "Canil": null,
+                "Casa do Caseiro": null,
+                "Cerca Elétrica": null,
+                "Churrasqueira": null,
+                "Closet": null,
+                "Cobertura": null,
+                "Duplex": null,
+                "Energia Trifásica": null,
+                "Fechadura Eletrônica": null,
+                "Galpão/Celeiro": null,
+                "Gerador de Energia": null,
+                "Horta": null,
+                "Interfone": null,
+                "Internet(Fibra ou Satélite)": null,
+                "Jacuzi": null,
+                "Jardim/Paisagismo": null,
+                "Lago/Açude": null,
+                "Lavabo": null,
+                "Móveis Planejados": null,
+                "Painéis Solares": null,
+                "Piscina": null,
+                "Playground Infantil": null,
+                "Poço Artesiano": null,
+                "Pomar": null,
+                "Portão Eletrônico": null,
+                "Quadra de Tênis/Beach Tennis": null,
+                "Quadra Poliesportiva": null,
+                "Quarto de Serviço": null,
+                "Sacada": null,
+                "Sauna": null,
+                "Torneira Aquecida": null,
+                "Triplex": null,
+                "Varanda Gourmet": null
+            },
+            "isCustom": true,
+            "isSorted": true
+        },
+        "cConsolidadoadicionais": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "default": [],
+            "isSorted": true,
+            "style": [],
+            "isCustom": true
+        },
+        "addressCountry": {
+            "default": "Brasil"
+        },
+        "cUsefulsquare": {
+            "notNull": false,
+            "type": "float",
+            "isCustom": true,
+            "isMatching": true
+        },
+        "cIdwp": {
+            "type": "int",
+            "isCustom": true,
+            "disableFormatting": true,
+            "inlineEditDisabled": true,
+            "readOnly": false
+        },
+        "cUrlgooglemaps": {
+            "type": "url",
+            "isCustom": true
+        },
+        "cUrlvideo": {
+            "type": "url",
+            "isCustom": true
+        },
+        "cSuite": {
+            "type": "int",
+            "isCustom": true,
+            "isMatching": true
+        },
+        "cVagasdegaragem": {
+            "type": "int",
+            "isCustom": true,
+            "isMatching": true
+        },
+        "cUrlwp": {
+            "type": "url",
+            "isCustom": true,
+            "readOnly": false,
+            "inlineEditDisabled": true
+        },
+        "cStatuswp": {
+            "type": "enum",
+            "options": [
+                "Rascunho",
+                "Publicado"
+            ],
+            "style": {
+                "Rascunho": "danger",
+                "Publicado": "success"
+            },
+            "default": "Rascunho",
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "cLatitude": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true,
+            "required": true
+        },
+        "cLongitude": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true,
+            "required": true
+        },
+        "cTitlewp": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true,
+            "required": true
+        },
+        "cUrlGdrive": {
+            "type": "url",
+            "readOnly": false,
+            "isCustom": true,
+            "inlineEditDisabled": true
+        },
+        "cLarguraComprimento": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "tooltip": true,
+            "isCustom": true
+        },
+        "cRecordId": {
+            "type": "varchar",
+            "maxLength": 100,
+            "readOnlyAfterCreate": false,
+            "options": [],
+            "isCustom": true,
+            "inlineEditDisabled": true,
+            "readOnly": true,
+            "copyToClipboard": true
+        },
+        "addressState": {
+            "default": "SP",
+            "required": false
+        },
+        "bedroomCount": {
+            "isMatching": true
+        },
+        "bathroomCount": {
+            "isMatching": true
+        },
+        "floorCount": {
+            "isMatching": true
+        },
+        "yearBuilt": {
+            "isMatching": true
+        },
+        "square": {
+            "isMatching": true
+        },
+        "price": {
+            "required": true
+        },
+        "addressCity": {
+            "required": false
+        },
+        "cCityLink": {
+            "type": "link",
+            "required": true
+        },
+        "cMesclarComImovelExistente": {
+            "notNull": true,
+            "type": "bool",
+            "readOnlyAfterCreate": true,
+            "isCustom": true
+        },
+        "cPermuta": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "default": [],
+            "options": [
+                "carros",
+                "motos",
+                "lancha",
+                "jet ski",
+                "casas",
+                "apartamentos",
+                "terrenos",
+                "chácaras/sítios"
+            ],
+            "style": {
+                "carros": null,
+                "motos": null,
+                "lancha": null,
+                "jet ski": null,
+                "casas": null,
+                "apartamentos": null,
+                "terrenos": null,
+                "chácaras/sítios": null
+            },
+            "isCustom": true
+        },
+        "name": {
+            "options": []
+        }
+    },
+    "links": {
+        "images": {
+            "type": "hasChildren",
+            "entity": "Attachment",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true,
+            "relationName": "attachments",
+            "utility": true
+        },
+        "cCondominium": {
+            "type": "belongsTo",
+            "foreign": "realEstateProperties",
+            "entity": "CCondominium",
+            "audited": false,
+            "isCustom": true
+        },
+        "requests": {
+            "audited": false
+        },
+        "cCityLink": {
+            "type": "belongsTo",
+            "foreign": "realEstateProperties",
+            "entity": "CCity",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "propertyTypes": {
+        "Apartment": {
+            "fieldList": [
+                "bedroomCount",
+                "bathroomCount",
+                "floor",
+                "floorCount",
+                "yearBuilt",
+                "square",
+                "cSuite",
+                "cVagasdegaragem"
+            ]
+        },
+        "Separate House": {
+            "fieldList": [
+                "bedroomCount",
+                "bathroomCount",
+                "floorCount",
+                "yearBuilt",
+                "square",
+                "cUsefulsquare",
+                "cVagasdegaragem",
+                "cSuite"
+            ]
+        },
+        "Land Lot": {
+            "fieldList": [
+                "square"
+            ]
+        },
+        "Farm": {
+            "fieldList": [
+                "yearBuilt",
+                "square",
+                "bedroomCount",
+                "bathroomCount",
+                "cUsefulsquare",
+                "cSuite"
+            ]
+        },
+        "Office": {
+            "fieldList": [
+                "floor",
+                "floorCount",
+                "yearBuilt",
+                "square",
+                "bedroomCount",
+                "bathroomCount",
+                "cVagasdegaragem"
+            ]
+        },
+        "Room": {
+            "fieldList": [
+                "floor",
+                "yearBuilt",
+                "square",
+                "bedroomCount",
+                "bathroomCount"
+            ]
+        },
+        "Warehouse": {
+            "fieldList": [
+                "yearBuilt",
+                "square",
+                "bedroomCount",
+                "bathroomCount"
+            ]
+        },
+        "Retail": {
+            "fieldList": [
+                "yearBuilt",
+                "square",
+                "cVagasdegaragem",
+                "bedroomCount",
+                "bathroomCount"
+            ]
+        }
+    }
+}

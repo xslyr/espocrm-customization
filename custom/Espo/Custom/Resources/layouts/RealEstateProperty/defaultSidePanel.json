@@ -1,0 +1,29 @@
+[
+    {
+        "name": "cMesclarComImovelExistente"
+    },
+    {
+        "name": "status"
+    },
+    {
+        "name": "cRecordId"
+    },
+    {
+        "name": "cIdwp"
+    },
+    {
+        "name": "cStatuswp"
+    },
+    {
+        "name": "cUrlwp"
+    },
+    {
+        "name": "cUrlGdrive"
+    },
+    {
+        "name": ":assignedUser"
+    },
+    {
+        "name": "teams"
+    }
+]

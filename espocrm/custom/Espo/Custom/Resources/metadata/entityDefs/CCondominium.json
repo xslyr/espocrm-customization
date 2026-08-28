@@ -1,0 +1,315 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "pattern": "$noBadCharacters"
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": false,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "address": {
+            "type": "address",
+            "isCustom": true
+        },
+        "monthlyfee": {
+            "type": "currency",
+            "audited": true,
+            "isCustom": true
+        },
+        "lazer": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "default": [],
+            "options": [
+                "Piscina",
+                "Sauna",
+                "Spa",
+                "Churrasqueira",
+                "Espaço Gourmet",
+                "Salão de Festas",
+                "Playground Infantil",
+                "Brinquedoteca",
+                "Academia / Espaço Fitness",
+                "Quadra Poliesportiva",
+                "Quadra de Tênis / Beach Tennis",
+                "Salão de Jogos",
+                "Bicicletário"
+            ],
+            "style": {
+                "Piscina": null,
+                "Sauna": null,
+                "Spa": null,
+                "Churrasqueira": null,
+                "Espaço Gourmet": null,
+                "Salão de Festas": null,
+                "Playground Infantil": null,
+                "Brinquedoteca": null,
+                "Academia / Espaço Fitness": null,
+                "Quadra Poliesportiva": null,
+                "Quadra de Tênis / Beach Tennis": null,
+                "Salão de Jogos": null,
+                "Bicicletário": null
+            },
+            "isSorted": true,
+            "isCustom": true
+        },
+        "segurancaservicos": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "default": [],
+            "options": [
+                "Vagas p/ Visitantes",
+                "Portaria 24h",
+                "Controle de Acesso (Biométrico/Facial)",
+                "Ronda Motorizada",
+                "Câmeras de Segurança",
+                "Gerador de Energia",
+                "Minimercado (interno)",
+                "Pet Place (Espaço Pet)",
+                "Lavanderia Compartilhada",
+                "Ponto de Recarga p/ Carros Elétricos",
+                "Colheita de Lixo (porta a porta)",
+                "Duto de Lixo"
+            ],
+            "style": {
+                "Vagas p/ Visitantes": null,
+                "Portaria 24h": null,
+                "Controle de Acesso (Biométrico/Facial)": null,
+                "Ronda Motorizada": null,
+                "Câmeras de Segurança": null,
+                "Gerador de Energia": null,
+                "Minimercado (interno)": null,
+                "Pet Place (Espaço Pet)": null,
+                "Lavanderia Compartilhada": null,
+                "Ponto de Recarga p/ Carros Elétricos": null,
+                "Colheita de Lixo (porta a porta)": null,
+                "Duto de Lixo": null
+            },
+            "isSorted": true,
+            "isCustom": true
+        },
+        "addressNeighbor": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "addressPostalCode": {
+            "options": []
+        },
+        "addressCountry": {
+            "default": "Brasil"
+        },
+        "idwp": {
+            "type": "int",
+            "isCustom": true,
+            "disableFormatting": true
+        },
+        "urlwp": {
+            "type": "url",
+            "isCustom": true,
+            "readOnly": false
+        },
+        "urlVideo": {
+            "type": "url",
+            "isCustom": true
+        },
+        "capa": {
+            "type": "image",
+            "previewSize": "small",
+            "isCustom": true
+        },
+        "imagens": {
+            "type": "attachmentMultiple",
+            "previewSize": "small",
+            "accept": [
+                "image/*"
+            ],
+            "maxCount": 30,
+            "maxFileSize": 2,
+            "sourceList": [],
+            "isCustom": true
+        },
+        "latitude": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "longitude": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "urlGoogleMaps": {
+            "type": "url",
+            "isCustom": true
+        },
+        "qtdElevadores": {
+            "type": "int",
+            "min": 0,
+            "disableFormatting": true,
+            "isCustom": true
+        },
+        "disponibilidade": {
+            "type": "enum",
+            "options": [
+                "disponível",
+                "indisponível"
+            ],
+            "style": {
+                "disponível": null,
+                "indisponível": null
+            },
+            "default": "disponível",
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "descricao": {
+            "type": "wysiwyg",
+            "height": 200,
+            "minHeight": 300,
+            "isCustom": true
+        },
+        "tipoCondominio": {
+            "type": "enum",
+            "options": [
+                "Apartamento",
+                "Casa"
+            ],
+            "style": {
+                "Apartamento": null,
+                "Casa": null
+            },
+            "default": "Apartamento",
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "urlGoogleDrive": {
+            "type": "url",
+            "isCustom": true
+        },
+        "recordId": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true,
+            "inlineEditDisabled": true,
+            "readOnly": true,
+            "copyToClipboard": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "realEstateProperties": {
+            "type": "hasMany",
+            "foreign": "cCondominium",
+            "entity": "RealEstateProperty",
+            "audited": false,
+            "isCustom": true
+        },
+        "realEstateRequests": {
+            "type": "hasMany",
+            "foreign": "cCondominium",
+            "entity": "RealEstateRequest",
+            "audited": false,
+            "isCustom": true
+        },
+        "capa": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "utility": true
+        },
+        "imagens": {
+            "type": "hasChildren",
+            "entity": "Attachment",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true,
+            "relationName": "attachments",
+            "utility": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        },
+        "createdAt": {
+            "columns": [
+                "createdAt"
+            ]
+        },
+        "createdAtId": {
+            "unique": true,
+            "columns": [
+                "createdAt",
+                "id"
+            ]
+        }
+    },
+    "optimisticConcurrencyControl": false
+}

@@ -1,0 +1,76 @@
+{
+    "fields": {
+        "assignedUser": {
+            "defaultAttributes": {
+                "assignedUserId": "6a185896cbb81a8c1",
+                "assignedUserName": "Juliana Carneiro"
+            }
+        },
+        "firstName": {
+            "options": []
+        },
+        "cPropertyTypeTarget": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "required": false,
+            "default": [],
+            "optionsReference": "RealEstateProperty.type",
+            "style": {},
+            "isCustom": true
+        },
+        "cFamilyIncome": {
+            "type": "enum",
+            "options": [
+                "",
+                "Até R$6.799",
+                "De R$6.800 a R$8.799",
+                "De R$8.800 a R$10.799",
+                "Mais de R$10.800"
+            ],
+            "style": {
+                "": null,
+                "Até R$6.799": null,
+                "De R$6.800 a R$8.799": null,
+                "De R$8.800 a R$10.799": null,
+                "Mais de R$10.800": null
+            },
+            "default": null,
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "cInvestmentAvailability": {
+            "type": "enum",
+            "options": [
+                "",
+                "Não Tenho",
+                "Tenho FGTS e valor de entrada",
+                "Tenho apenas FGTS",
+                "Tenho apenas o valor de entrada",
+                "Não sei informar"
+            ],
+            "style": {
+                "": null,
+                "Não Tenho": null,
+                "Tenho FGTS e valor de entrada": null,
+                "Tenho apenas FGTS": null,
+                "Tenho apenas o valor de entrada": null,
+                "Não sei informar": null
+            },
+            "default": null,
+            "maxLength": 100,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "accountName",
+            "emailAddress"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": false
+}

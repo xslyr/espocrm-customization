@@ -1,0 +1,57 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "cTaskType"
+                },
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "parent"
+                }
+            ],
+            [
+                {
+                    "name": "dateStart"
+                },
+                {
+                    "name": "dateEnd"
+                },
+                {
+                    "name": "priority"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "reminders"
+                },
+                {
+                    "name": "attachments"
+                }
+            ],
+            [
+                {
+                    "name": "cPostCover"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "cFeedback"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

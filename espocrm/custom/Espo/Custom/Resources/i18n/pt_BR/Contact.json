@@ -1,0 +1,15 @@
+{
+    "options": {
+        "opportunityRole": {
+            "Landlord": "Proprietário",
+            "Property Manager": "Corretor",
+            "Requester": "Solicitante",
+            "Tenant": "Inquilino"
+        },
+        "propertyRole": {
+            "Landlord": "Proprietário",
+            "Property Manager": "Corretor",
+            "Tenant": "Inquilino"
+        }
+    }
+}

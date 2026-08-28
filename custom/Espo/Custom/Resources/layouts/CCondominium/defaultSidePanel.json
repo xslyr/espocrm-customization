@@ -1,0 +1,23 @@
+[
+    {
+        "name": "recordId"
+    },
+    {
+        "name": "cIdwp"
+    },
+    {
+        "name": "cStatuswp"
+    },
+    {
+        "name": "cUrlwp"
+    },
+    {
+        "name": "urlGoogleDrive"
+    },
+    {
+        "name": ":assignedUser"
+    },
+    {
+        "name": "teams"
+    }
+]

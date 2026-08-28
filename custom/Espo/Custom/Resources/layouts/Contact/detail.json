@@ -1,0 +1,49 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "firstName"
+                },
+                {
+                    "name": "lastName"
+                },
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "addressStreet"
+                },
+                {
+                    "name": "cAddressNeighbor"
+                },
+                {
+                    "name": "cCityLink"
+                }
+            ],
+            [
+                {
+                    "name": "cPropertyTypeTarget"
+                },
+                {
+                    "name": "cFamilyIncome"
+                },
+                {
+                    "name": "cInvestmentAvailability"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

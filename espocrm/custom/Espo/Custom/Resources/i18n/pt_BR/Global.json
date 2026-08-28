@@ -1,0 +1,19 @@
+{
+    "scopeNames": {
+        "RealEstateProperty": "Imóvel",
+        "RealEstateRequest": "Solicitação",
+        "User": "Corretor",
+        "CCondominium": "Condomínio",
+        "Opportunity": "Negociação"
+    },
+    "scopeNamesPlural": {
+        "RealEstateProperty": "Imóveis",
+        "RealEstateRequest": "Solicitações",
+        "User": "Corretores",
+        "Opportunity": "Negociações",
+        "KnowledgeBaseArticle": "Base de Conhecimento"
+    },
+    "links": {
+        "assignedUser": "Corretor Designado"
+    }
+}

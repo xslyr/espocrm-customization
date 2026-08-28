@@ -1,0 +1,60 @@
+{
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "emailAddress"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": false,
+    "fields": {
+        "cCityLink": {
+            "type": "link"
+        },
+        "cAddressNeighbor": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "cFamilyIncome": {
+            "type": "enum",
+            "optionsReference": "Lead.cFamilyIncome",
+            "default": "Até R$6.799",
+            "style": {},
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "cInvestmentAvailability": {
+            "type": "enum",
+            "optionsReference": "Lead.cInvestmentAvailability",
+            "style": {},
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "cPropertyTypeTarget": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "default": [],
+            "optionsReference": "RealEstateProperty.type",
+            "style": {},
+            "isCustom": true
+        },
+        "lastName": {
+            "required": false,
+            "options": []
+        }
+    },
+    "links": {
+        "cCityLink": {
+            "type": "belongsTo",
+            "foreign": "contacts",
+            "entity": "CCity",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

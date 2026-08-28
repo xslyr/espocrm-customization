@@ -1,0 +1,27 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "kanbanViewMode": false,
+    "color": "#1a2b3c",
+    "iconClass": "fas fa-tree-city",
+    "relationshipPanels": {
+        "realEstateProperties": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "condominiums": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "realEstateRequests": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "contacts": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

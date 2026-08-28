@@ -1,0 +1,79 @@
+{
+    "fields": {
+        "address": "Endereço",
+        "addressStreet": "Endereço Rua",
+        "addressCity": "Endereço Cidade",
+        "addressState": "Endereço Estado",
+        "addressCountry": "Endereço País",
+        "addressPostalCode": "Endereço Código Postal",
+        "addressMap": "Endereço Mapa",
+        "monthlyfee": "Mensalidade",
+        "monthlyfeeCurrency": "Mensalidade (Moeda)",
+        "monthlyfeeConverted": "Mensalidade (Convertido)",
+        "realEstateProperties": "Real Estate Properties",
+        "lazer": "Lazer",
+        "segurancaservicos": "Seguranca & Serviços",
+        "realEstateRequests": "Real Estate Requests",
+        "addressNeighbor": "Bairro",
+        "idwp": "Id WP",
+        "urlwp": "URL WP",
+        "urlVideo": "URL Vídeo",
+        "capa": "Capa",
+        "imagens": "Imagens",
+        "latitude": "Latitude",
+        "longitude": "Longitude",
+        "urlGoogleMaps": "URL Google Maps",
+        "qtdElevadores": "Qtd Elevadores",
+        "disponibilidade": "Disponibilidade",
+        "descricao": "Descrição",
+        "tipoCondominio": "Tipo do Condominio",
+        "urlGoogleDrive": "URL Google Drive",
+        "recordId": "Id CRM"
+    },
+    "links": {
+        "realEstateProperties": "Real Estate Properties",
+        "realEstateRequests": "Real Estate Requests"
+    },
+    "labels": {
+        "Create CCondominium": "Criar Condomínio"
+    },
+    "options": {
+        "lazer": {
+            "Piscina": "Piscina",
+            "Sauna": "Sauna",
+            "Spa": "Spa",
+            "Churrasqueira": "Churrasqueira",
+            "Espaço Gourmet": "Espaço Gourmet",
+            "Salão de Festas": "Salão de Festas",
+            "Playground Infantil": "Playground Infantil",
+            "Brinquedoteca": "Brinquedoteca",
+            "Academia / Espaço Fitness": "Academia / Espaço Fitness",
+            "Quadra Poliesportiva": "Quadra Poliesportiva",
+            "Quadra de Tênis / Beach Tennis": "Quadra de Tênis / Beach Tennis",
+            "Salão de Jogos": "Salão de Jogos",
+            "Bicicletário": "Bicicletário"
+        },
+        "segurancaservicos": {
+            "Vagas p/ Visitantes": "Vagas p/ Visitantes",
+            "Portaria 24h": "Portaria 24h",
+            "Controle de Acesso (Biométrico/Facial)": "Controle de Acesso (Biométrico/Facial)",
+            "Ronda Motorizada": "Ronda Motorizada",
+            "Câmeras de Segurança": "Câmeras de Segurança",
+            "Gerador de Energia": "Gerador de Energia",
+            "Minimercado (interno)": "Minimercado (interno)",
+            "Pet Place (Espaço Pet)": "Pet Place (Espaço Pet)",
+            "Lavanderia Compartilhada": "Lavanderia Compartilhada",
+            "Ponto de Recarga p/ Carros Elétricos": "Ponto de Recarga p/ Carros Elétricos",
+            "Colheita de Lixo (porta a porta)": "Colheita de Lixo (porta a porta)",
+            "Duto de Lixo": "Duto de Lixo"
+        },
+        "disponibilidade": {
+            "disponível": "disponível",
+            "indisponível": "indisponível"
+        },
+        "tipoCondominio": {
+            "Apartamento": "Apartamento",
+            "Casa": "Casa"
+        }
+    }
+}

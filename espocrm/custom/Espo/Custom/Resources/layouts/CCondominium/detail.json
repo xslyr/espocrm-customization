@@ -1,0 +1,122 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "recordId"
+                },
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "idwp"
+                },
+                {
+                    "name": "urlwp"
+                }
+            ],
+            [
+                {
+                    "name": "disponibilidade"
+                },
+                {
+                    "name": "tipoCondominio"
+                },
+                {
+                    "name": "monthlyfee"
+                },
+                {
+                    "name": "capa"
+                }
+            ],
+            [
+                {
+                    "name": "urlGoogleDrive"
+                },
+                {
+                    "name": "urlVideo"
+                },
+                {
+                    "name": "urlGoogleMaps"
+                }
+            ],
+            [
+                {
+                    "name": "latitude"
+                },
+                {
+                    "name": "longitude"
+                },
+                {
+                    "name": "addressStreet"
+                },
+                {
+                    "name": "addressNeighbor"
+                }
+            ],
+            [
+                {
+                    "name": "addressPostalCode"
+                },
+                {
+                    "name": "addressCity"
+                },
+                {
+                    "name": "addressState"
+                },
+                {
+                    "name": "qtdElevadores"
+                }
+            ],
+            [
+                {
+                    "name": "imagens"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "lazer"
+                }
+            ],
+            [
+                {
+                    "name": "segurancaservicos"
+                }
+            ],
+            [
+                {
+                    "name": "descricao"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Detalhes"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "addressMap"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Mapa"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "status",
+        "width": 13
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "contact",
+        "width": 18
+    },
+    {
+        "name": "cAddressCity",
+        "width": 16
+    },
+    {
+        "name": "cPermuta",
+        "width": 16,
+        "notSortable": true
+    },
+    {
+        "name": "matchingPropertyCount",
+        "width": 12
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "kanbanViewMode": false,
+    "color": "#1a2b3c",
+    "iconClass": "fas fa-bullhorn",
+    "relationshipPanels": {
+        "condominium": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

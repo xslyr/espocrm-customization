@@ -1,0 +1,135 @@
+{
+    "fields": {
+        "matchingRequestCount": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "notIn",
+                        "attribute": "status",
+                        "value": [
+                            "Completed",
+                            "Canceled",
+                            "Lost"
+                        ]
+                    }
+                ]
+            }
+        },
+        "type": {
+            "invalid": null
+        },
+        "cStatuswp": {
+            "readOnly": {
+                "conditionGroup": [
+                    {
+                        "type": "isEmpty",
+                        "attribute": "id"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "cMesclarComImovelExistente"
+                    }
+                ]
+            }
+        },
+        "status": {
+            "readOnly": {
+                "conditionGroup": [
+                    {
+                        "type": "isEmpty",
+                        "attribute": "id"
+                    }
+                ]
+            }
+        },
+        "cLarguraComprimento": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "type",
+                        "value": "Land Lot"
+                    }
+                ]
+            }
+        },
+        "assignedUser": {
+            "visible": null
+        },
+        "teams": {
+            "visible": null
+        },
+        "cMesclarComImovelExistente": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "isEmpty",
+                        "attribute": "id"
+                    }
+                ]
+            }
+        },
+        "cIdwp": {
+            "readOnly": {
+                "conditionGroup": [
+                    {
+                        "type": "notEquals",
+                        "attribute": "id",
+                        "value": "0"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "cMesclarComImovelExistente"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "isTrue",
+                        "attribute": "cMesclarComImovelExistente"
+                    }
+                ]
+            }
+        },
+        "cUrlGdrive": {
+            "readOnly": {
+                "conditionGroup": [
+                    {
+                        "type": "notEquals",
+                        "attribute": "id",
+                        "value": "0"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "cMesclarComImovelExistente"
+                    }
+                ]
+            },
+            "required": null
+        },
+        "cUrlwp": {
+            "readOnly": {
+                "conditionGroup": [
+                    {
+                        "type": "notEquals",
+                        "attribute": "id",
+                        "value": "0"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "cMesclarComImovelExistente"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "isTrue",
+                        "attribute": "cMesclarComImovelExistente"
+                    }
+                ]
+            }
+        }
+    }
+}

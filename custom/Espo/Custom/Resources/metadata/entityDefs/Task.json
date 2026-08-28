@@ -1,0 +1,67 @@
+{
+    "fields": {
+        "assignedUser": {
+            "defaultAttributes": {
+                "assignedUserId": "6a185896cbb81a8c1",
+                "assignedUserName": "Juliana Carneiro"
+            }
+        },
+        "cPostCover": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true,
+            "tooltip": true
+        },
+        "attachments": {
+            "accept": []
+        },
+        "description": {
+            "readOnlyAfterCreate": true,
+            "inlineEditDisabled": true
+        },
+        "cFeedback": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "preview": true
+        },
+        "cTaskType": {
+            "type": "enum",
+            "options": [
+                "Genérica",
+                "Upload de Imagens p/ Site",
+                "Atualizar SEO"
+            ],
+            "style": {
+                "Genérica": null,
+                "Upload de Imagens p/ Site": null,
+                "Atualizar SEO": null
+            },
+            "default": "Genérica",
+            "maxLength": 100,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": true,
+    "links": {
+        "attachments": {
+            "type": "hasChildren",
+            "entity": "Attachment",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true,
+            "relationName": "attachments",
+            "utility": true
+        }
+    }
+}

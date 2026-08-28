@@ -1,0 +1,27 @@
+{
+    "kanbanViewMode": false,
+    "color": "#1a2b3c",
+    "iconClass": "fas fa-crosshairs",
+    "relationshipPanels": {
+        "condominium": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "realEstateProperties": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "properties": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "cCityLink": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "cityLink": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

@@ -1,0 +1,48 @@
+[
+    {
+        "name": "cRecordId",
+        "width": 15,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "cIdwp",
+        "width": 8,
+        "align": "left"
+    },
+    {
+        "name": "type",
+        "width": 14,
+        "align": "left"
+    },
+    {
+        "name": "addressStreet",
+        "width": 25,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "cAddressNeighbor",
+        "width": 16,
+        "align": "left"
+    },
+    {
+        "name": "addressCity",
+        "width": 16,
+        "align": "left"
+    },
+    {
+        "name": "price",
+        "width": 16
+    },
+    {
+        "name": "status",
+        "width": 8,
+        "align": "left"
+    },
+    {
+        "name": "matchingRequestCount",
+        "width": 5,
+        "align": "left"
+    }
+]

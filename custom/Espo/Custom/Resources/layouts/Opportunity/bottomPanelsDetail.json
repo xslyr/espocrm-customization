@@ -1,0 +1,36 @@
+{
+    "activities": {
+        "disabled": true
+    },
+    "history": {
+        "disabled": true
+    },
+    "_delimiter_": {
+        "disabled": true
+    },
+    "_tabBreak_4": {
+        "index": 0,
+        "tabBreak": true,
+        "tabLabel": "Fluxo"
+    },
+    "stream": {
+        "sticked": false,
+        "index": 1
+    },
+    "_tabBreak_1": {
+        "index": 2,
+        "tabBreak": true,
+        "tabLabel": "Documentos"
+    },
+    "documents": {
+        "index": 3
+    },
+    "_tabBreak_3": {
+        "index": 4,
+        "tabBreak": true,
+        "tabLabel": "Tarefas"
+    },
+    "tasks": {
+        "index": 5
+    }
+}

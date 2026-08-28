@@ -1,0 +1,10 @@
+{
+    "scopeNames": {
+        "CCondominium": "Condomínio",
+        "CCity": "Cidade"
+    },
+    "scopeNamesPlural": {
+        "CCondominium": "Condomínios",
+        "CCity": "Cidades"
+    }
+}

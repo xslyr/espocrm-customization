@@ -1,0 +1,60 @@
+{
+    "kanbanViewMode": false,
+    "color": "#1a2b3c",
+    "iconClass": "fas fa-house",
+    "relationshipPanels": {
+        "condominium": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "matchedPropertiesCustom": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "requests": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "cityLink": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    },  
+    "dynamicLogic": {
+        "fields": {
+            "cIdwp": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "id",
+                            "value": "0"
+                        }
+                    ]
+                }
+            },
+            "cUrlGdrive": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "id",
+                            "value": "0"
+                        }
+                    ]
+                }
+            },
+            "cUrlwp": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "id",
+                            "value": "0"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "scopeNames": {
+        "RealEstateProperty": "Imóvel",
+        "RealEstateRequest": "Prospecção",
+        "User": "Usuário",
+        "CCondominium": "Condomínio",
+        "Opportunity": "Oportunidade",
+        "Meeting": "Visita",
+        "Case": "SAC",
+        "Task": "Tarefa Interna"
+    },
+    "scopeNamesPlural": {
+        "RealEstateProperty": "Imóveis",
+        "RealEstateRequest": "Prospecções",
+        "User": "Usuários",
+        "Opportunity": "Oportunidades",
+        "KnowledgeBaseArticle": "Base de Conhecimento",
+        "Meeting": "Visitas",
+        "Case": "SAC",
+        "Task": "Tarefas Interna"
+    },
+    "links": {
+        "assignedUser": "Corretor Designado"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "fields": {
+        "firstName": "Nome",
+        "cPropertyTypeTarget": "Qual tipo de imóvel procura?",
+        "cFamilyIncome": "Renda Familiar",
+        "cInvestmentAvailability": "Disponibilidade de Entrada"
+    },
+    "options": {
+        "cPropertyTypeTarget": [],
+        "cFamilyIncome": {
+            "Até R$6.799": "Até R$6.799",
+            "De R$6.800 a R$8.799": "De R$6.800 a R$8.799",
+            "De R$8.800 a R$10.799": "De R$8.800 a R$10.799",
+            "Mais de R$10.800": "Mais de R$10.800",
+            "": ""
+        },
+        "cInvestmentAvailability": {
+            "Não Tenho": "Não Tenho",
+            "Tenho FGTS e valor de entrada": "Tenho FGTS e valor de entrada",
+            "Tenho apenas FGTS": "Tenho apenas FGTS",
+            "Tenho apenas o valor de entrada": "Tenho apenas o valor de entrada",
+            "Não sei informar": "Não sei informar",
+            "": ""
+        }
+    }
+}

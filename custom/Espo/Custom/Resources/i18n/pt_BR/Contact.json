@@ -1,0 +1,28 @@
+{
+    "options": {
+        "opportunityRole": {
+            "Landlord": "Proprietário",
+            "Property Manager": "Corretor",
+            "Requester": "Cliente Comprador",
+            "Tenant": "Cliente Inquilino"
+        },
+        "propertyRole": {
+            "Landlord": "Proprietário",
+            "Property Manager": "Corretor",
+            "Tenant": "Cliente"
+        },
+        "cFamilyIncome": [],
+        "cInvestmentAvailability": [],
+        "cPropertyTypeTarget": []
+    },
+    "fields": {
+        "cCityLink": "Cidade/UF",
+        "cAddressNeighbor": "Bairro",
+        "cFamilyIncome": "Renda Familiar",
+        "cInvestmentAvailability": "Disponibilidade de Entrada",
+        "cPropertyTypeTarget": "Tipo de Imóvel Buscado"
+    },
+    "links": {
+        "cCityLink": "Cidade/UF"
+    }
+}

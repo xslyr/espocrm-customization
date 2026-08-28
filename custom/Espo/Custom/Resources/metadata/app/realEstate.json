@@ -1,0 +1,12 @@
+{
+    "realEstate": {
+        "matching": {
+            "conditions": {
+                "cAdicionais": {
+                    "propertyAttribute": "cAdicionais",
+                    "type": "arrayAnyOf"
+                }
+            }
+        }
+    }
+}

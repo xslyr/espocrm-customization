@@ -1,0 +1,78 @@
+{
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": true,
+    "fields": {
+        "stage": {
+            "probabilityMap": {
+                "Prospecting": 5,
+                "Proposed": 10,
+                "Presented": 30,
+                "Closed Won": 100,
+                "Closed Lost": 0
+            },
+            "style": {
+                "Prospecting": "primary",
+                "Proposed": "warning",
+                "Presented": "warning",
+                "Closed Won": "success",
+                "Closed Lost": "danger"
+            }
+        },
+        "amount": {
+            "required": false
+        },
+        "request": {
+            "required": true
+        },
+        "cLostReason": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "default": [],
+            "options": [
+                "Financiamento Negado",
+                "Problema Documental",
+                "Preço Incompatível",
+                "Proposta Recusada",
+                "Desistência Pessoal",
+                "Imóvel Inadequado",
+                "Localização Ruim",
+                "Problema Estrutural",
+                "Comprou Outro Imóvel",
+                "Imóvel Vendido por outro Corretor",
+                "Cliente não Responde Mais",
+                "Cliente não Possui Entrada",
+                "Condições de Pagamentos Incompatíveis",
+                "Proprietário Desistiu da Venda",
+                "Desistência Pós Visita",
+                "Outro"
+            ],
+            "style": {
+                "Financiamento Negado": null,
+                "Problema Documental": null,
+                "Preço Incompatível": null,
+                "Proposta Recusada": null,
+                "Desistência Pessoal": null,
+                "Imóvel Inadequado": null,
+                "Localização Ruim": null,
+                "Problema Estrutural": null,
+                "Comprou Outro Imóvel": null,
+                "Imóvel Vendido por outro Corretor": null,
+                "Cliente não Responde Mais": null,
+                "Cliente não Possui Entrada": null,
+                "Condições de Pagamentos Incompatíveis": null,
+                "Proprietário Desistiu da Venda": null,
+                "Desistência Pós Visita": null,
+                "Outro": null
+            },
+            "isCustom": true
+        }
+    }
+}

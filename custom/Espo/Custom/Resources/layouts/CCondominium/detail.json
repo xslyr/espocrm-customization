@@ -1,0 +1,96 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "tipoCondominio"
+                },
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "monthlyfee"
+                }
+            ],
+            [
+                {
+                    "name": "urlGoogleMaps"
+                },
+                {
+                    "name": "urlVideo"
+                },
+                {
+                    "name": "qtdElevadores"
+                }
+            ],
+            [
+                {
+                    "name": "latitude"
+                },
+                {
+                    "name": "longitude"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "addressStreet"
+                },
+                {
+                    "name": "addressNeighbor"
+                },
+                {
+                    "name": "cCityLink"
+                },
+                {
+                    "name": "addressPostalCode"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "lazer"
+                }
+            ],
+            [
+                {
+                    "name": "segurancaservicos"
+                }
+            ],
+            [
+                {
+                    "name": "descricao"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Detalhes"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "addressMap"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Mapa"
+    }
+]

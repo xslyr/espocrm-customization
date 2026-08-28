@@ -1,0 +1,57 @@
+{
+    "fields": {
+        "cPostCover": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "cTaskType",
+                        "value": "Upload de Imagens p/ Site"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "cTaskType",
+                        "value": "Upload de Imagens p/ Site"
+                    }
+                ]
+            }
+        },
+        "attachments": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "notEquals",
+                        "attribute": "cTaskType",
+                        "value": "Upload de Imagens p/ Site"
+                    }
+                ]
+            }
+        },
+        "account": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "notContains",
+                        "attribute": "name",
+                        "value": "Upload de Imagens"
+                    }
+                ]
+            }
+        },
+        "contact": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "notContains",
+                        "attribute": "name",
+                        "value": "Upload de Imagens"
+                    }
+                ]
+            }
+        }
+    }
+}

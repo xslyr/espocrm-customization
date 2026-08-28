@@ -1,0 +1,39 @@
+[
+    {
+        "name": "recordId",
+        "width": 10,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "idwp",
+        "width": 5,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "width": 20,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "lazer",
+        "width": 20,
+        "notSortable": true,
+        "align": "left"
+    },
+    {
+        "name": "segurancaservicos",
+        "width": 20,
+        "notSortable": true,
+        "align": "left"
+    },
+    {
+        "name": "addressNeighbor",
+        "width": 16
+    },
+    {
+        "name": "addressCity",
+        "width": 16
+    }
+]

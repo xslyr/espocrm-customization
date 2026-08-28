@@ -1,0 +1,25 @@
+{
+    "fields": {
+        "cLostReason": "Motivo de Perda"
+    },
+    "options": {
+        "cLostReason": {
+            "Financiamento Negado": "Financiamento Negado",
+            "Problema Documental": "Problema Documental",
+            "Preço Incompatível": "Preço Incompatível",
+            "Proposta Recusada": "Proposta Recusada",
+            "Desistência Pessoal": "Desistência Pessoal",
+            "Imóvel Inadequado": "Imóvel Inadequado",
+            "Localização Ruim": "Localização Ruim",
+            "Problema Estrutural": "Problema Estrutural",
+            "Comprou Outro Imóvel": "Comprou Outro Imóvel",
+            "Imóvel Vendido por outro Corretor": "Imóvel Vendido por outro Corretor",
+            "Cliente não Responde Mais": "Cliente não Responde Mais",
+            "Cliente não Possui Entrada": "Cliente não Possui Entrada",
+            "Condições de Pagamentos Incompatíveis": "Condições de Pagamentos Incompatíveis",
+            "Proprietário Desistiu da Venda": "Proprietário Desistiu da Venda",
+            "Desistência Pós Visita": "Desistência Pós Visita",
+            "Outro": "Outro"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "fields": {
+        "cAddressNeighbor": "Bairro",
+        "cDescricao": "Descrição",
+        "cCondominium": "Condominium",
+        "cAdicionais": "Adicionais",
+        "cConsolidadoadicionais": "Consolidado Adicionais",
+        "cUsefulsquare": "Área Útil (m²)",
+        "cIdwp": "Id WP",
+        "cUrlgooglemaps": "URL Google Maps",
+        "cUrlvideo": "URL Vídeo",
+        "cSuite": "Suítes",
+        "cVagasdegaragem": "Vagas de Garagem",
+        "cUrlwp": "URL Wordpress",
+        "cCapa": "Capa",
+        "cStatuswp": "Status WP",
+        "cLatitude": "Latitude",
+        "cLongitude": "Longitude",
+        "cTitlewp": "Title WP",
+        "cUrlGdrive": "URL GoogleDrive",
+        "cLarguraComprimento": "Largura x Comprimento",
+        "cRecordId": "Id CRM"
+    },
+    "links": {
+        "cCondominium": "Condominium"
+    },
+    "options": {
+        "cAdicionais": {
+            "Alarme": "Alarme",
+            "Ar-Condicionado": "Ar-Condicionado",
+            "Automação Residencial": "Automação Residencial",
+            "Baias/Cocheiras": "Baias/Cocheiras",
+            "Câmeras de Segurança": "Câmeras de Segurança",
+            "Campo de Futebol": "Campo de Futebol",
+            "Canil": "Canil",
+            "Casa do Caseiro": "Casa do Caseiro",
+            "Cerca Elétrica": "Cerca Elétrica",
+            "Churrasqueira": "Churrasqueira",
+            "Closet": "Closet",
+            "Cobertura": "Cobertura",
+            "Duplex": "Duplex",
+            "Energia Trifásica": "Energia Trifásica",
+            "Fechadura Eletrônica": "Fechadura Eletrônica",
+            "Galpão/Celeiro": "Galpão/Celeiro",
+            "Gerador de Energia": "Gerador de Energia",
+            "Horta": "Horta",
+            "Interfone": "Interfone",
+            "Internet(Fibra ou Satélite)": "Internet(Fibra ou Satélite)",
+            "Jacuzi": "Jacuzi",
+            "Jardim/Paisagismo": "Jardim/Paisagismo",
+            "Lago/Açude": "Lago/Açude",
+            "Lavabo": "Lavabo",
+            "Móveis Planejados": "Móveis Planejados",
+            "Painéis Solares": "Painéis Solares",
+            "Piscina": "Piscina",
+            "Playground Infantil": "Playground Infantil",
+            "Poço Artesiano": "Poço Artesiano",
+            "Pomar": "Pomar",
+            "Portão Eletrônico": "Portão Eletrônico",
+            "Quadra de Tênis/Beach Tennis": "Quadra de Tênis/Beach Tennis",
+            "Quadra Poliesportiva": "Quadra Poliesportiva",
+            "Quarto de Serviço": "Quarto de Serviço",
+            "Sacada": "Sacada",
+            "Sauna": "Sauna",
+            "Torneira Aquecida": "Torneira Aquecida",
+            "Triplex": "Triplex",
+            "Varanda Gourmet": "Varanda Gourmet"
+        },
+        "cConsolidadoadicionais": [],
+        "cStatuswp": {
+            "Rascunho": "Rascunho",
+            "Publicado": "Publicado"
+        }
+    },
+    "tooltips": {
+        "cLarguraComprimento": "Conveniente para Terrenos. Digite ambos em metros e separado por x."
+    }
+}

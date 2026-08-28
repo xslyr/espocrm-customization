@@ -1,0 +1,17 @@
+{
+    "fields": {
+        "cPostCover": "Capa da Postagem",
+        "cFeedback": "Feedback",
+        "cTaskType": "Tipo da Tarefa"
+    },
+    "tooltips": {
+        "cPostCover": "Inclua aqui o nome exato do imagem e extensão que será usada como capa da postagem do imóvel."
+    },
+    "options": {
+        "cTaskType": {
+            "Genérica": "Genérica",
+            "Upload de Imagens p/ Site": "Upload de Imagens p/ Site",
+            "Atualizar SEO": "Atualizar SEO"
+        }
+    }
+}

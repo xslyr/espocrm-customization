@@ -1,0 +1,121 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "cTitlewp"
+                },
+                {
+                    "name": "contacts"
+                }
+            ],
+            [
+                {
+                    "name": "price"
+                },
+                {
+                    "name": "cPermuta"
+                },
+                {
+                    "name": "matchingRequestCount"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "customLabel": "Administração"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "cLatitude"
+                },
+                {
+                    "name": "cLongitude"
+                },
+                {
+                    "name": "cCondominium"
+                },
+                {
+                    "name": "addressPostalCode"
+                }
+            ],
+            [
+                {
+                    "name": "addressStreet"
+                },
+                {
+                    "name": "cAddressNeighbor"
+                },
+                {
+                    "name": "cCityLink"
+                }
+            ],
+            [
+                {
+                    "name": "cUrlgooglemaps"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Localidade"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "square"
+                },
+                {
+                    "name": "cUsefulsquare"
+                },
+                {
+                    "name": "cLarguraComprimento"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "bedroomCount"
+                },
+                {
+                    "name": "bathroomCount"
+                },
+                {
+                    "name": "cSuite"
+                },
+                {
+                    "name": "cVagasdegaragem"
+                }
+            ],
+            [
+                {
+                    "name": "cAdicionais"
+                },
+                {
+                    "name": "cUrlvideo"
+                }
+            ],
+            [
+                {
+                    "name": "cDescricao"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Details"
+    }
+]

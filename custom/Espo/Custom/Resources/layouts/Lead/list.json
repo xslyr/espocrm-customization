@@ -1,0 +1,42 @@
+[
+    {
+        "name": "status",
+        "width": 9,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "width": 20,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "emailAddress",
+        "width": 20,
+        "notSortable": true
+    },
+    {
+        "name": "phoneNumber",
+        "width": 16
+    },
+    {
+        "name": "cFamilyIncome",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "cInvestmentAvailability",
+        "width": 12,
+        "align": "left"
+    },
+    {
+        "name": "cPropertyTypeTarget",
+        "width": 12,
+        "notSortable": true,
+        "align": "left"
+    },
+    {
+        "name": "createdAt",
+        "width": 13
+    }
+]
