@@ -1,0 +1,48 @@
+name: Deploy EspoCRM to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Backup Pré-Deploy (rsync)
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_PORT }}
+          script: |
+            mkdir -p ~/containers/juimoveis/bkp
+            rsync -a ~/containers/juimoveis/data/espocrm ~/containers/juimoveis/bkp/
+            rsync -a ~/containers/juimoveis/data/db ~/containers/juimoveis/bkp/
+
+      - name: Copiar arquivos para a VPS
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_PORT }}
+          source: "./*"
+          target: "~/containers/juimoveis/data/espocrm"
+          rm: false 
+
+      - name: Executar scripts pós-deploy
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_PORT }}
+          script: |
+            cd ~/containers/juimoveis
+            sudo chown -R 33:33 ./data/espocrm
+            docker compose --env-file ~/global.env --env-file .crm-env -f crm.docker.yml up -d --force-recreate
