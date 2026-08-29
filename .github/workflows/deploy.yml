@@ -23,7 +23,7 @@ jobs:
             mkdir -p ~/containers/juimoveis/bkp
             sudo rsync -a ~/containers/juimoveis/data/espocrm ~/containers/juimoveis/bkp/
             sudo rsync -a ~/containers/juimoveis/data/db ~/containers/juimoveis/bkp/
-            sudo chown -R ${{ secrets.VPS_USER }}:33 ./data/espocrm
+            sudo chown -R ${{ secrets.VPS_USER }}:33 ~/containers/juimoveis/data/espocrm
 
       - name: Copiar arquivos para a VPS
         uses: appleboy/scp-action@v0.1.7
