@@ -235,6 +235,7 @@ class Service
                     ->where([
                         'requestId=' => $entity->getId(),
                         'deleted' => false,
+                        'propertyId!=' => null,
                     ])
                     ->build()
             )
