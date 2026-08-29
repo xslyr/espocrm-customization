@@ -1,3 +1,3 @@
-# juimoveis-crm
+# personalizacao-crm
 
-_Projeto de personalização do espoCRM p/ cliente JuImóveis_
+_Projeto de personalização do espoCRM p/ um cliente em Piracicaba/SP_
