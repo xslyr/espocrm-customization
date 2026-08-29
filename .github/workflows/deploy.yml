@@ -21,8 +21,8 @@ jobs:
           port: ${{ secrets.VPS_PORT }}
           script: |
             mkdir -p ~/containers/juimoveis/bkp
-            rsync -a ~/containers/juimoveis/data/espocrm ~/containers/juimoveis/bkp/
-            rsync -a ~/containers/juimoveis/data/db ~/containers/juimoveis/bkp/
+            sudo rsync -a ~/containers/juimoveis/data/espocrm ~/containers/juimoveis/bkp/
+            sudo rsync -a ~/containers/juimoveis/data/db ~/containers/juimoveis/bkp/
 
       - name: Copiar arquivos para a VPS
         uses: appleboy/scp-action@v0.1.7
