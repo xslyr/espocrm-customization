@@ -21,8 +21,9 @@ jobs:
           port: ${{ secrets.VPS_PORT }}
           script: |
             mkdir -p ~/containers/juimoveis/bkp
-            rsync -a ~/containers/juimoveis/data/espocrm ~/containers/juimoveis/bkp/
+            sudo rsync -a ~/containers/juimoveis/data/espocrm ~/containers/juimoveis/bkp/
             sudo rsync -a ~/containers/juimoveis/data/db ~/containers/juimoveis/bkp/
+            sudo chown -R ${{ secrets.VPS_USER }}:33 ./data/espocrm
 
       - name: Copiar arquivos para a VPS
         uses: appleboy/scp-action@v0.1.7
@@ -44,5 +45,7 @@ jobs:
           port: ${{ secrets.VPS_PORT }}
           script: |
             cd ~/containers/juimoveis
-            sudo chown -R ${{ secrets.VPS_USER }}:33 ./data/espocrm
+            sudo chown -R 33:33 ./data/espocrm
+            sudo find ./data/espocrm -type d -exec chmod 755 {} +
+            sudo find ./data/espocrm -type f -exec chmod 644 {} +
             docker compose --env-file ~/global.env --env-file .crm-env -f crm.docker.yml up -d --force-recreate
