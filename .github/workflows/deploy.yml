@@ -48,4 +48,4 @@ jobs:
             sudo chown -R 33:33 ./data/espocrm
             sudo find ./data/espocrm -type d -exec chmod 755 {} +
             sudo find ./data/espocrm -type f -exec chmod 644 {} +
-            docker compose --env-file .crm-env --env-file ~/global.env -f crm.docker.yml exec -u 33 app php rebuild.php
+            docker compose --env-file .crm-env --env-file ~/global.env -f crm.docker.yml exec -u 33 app php bin/command rebuild
