@@ -250,12 +250,15 @@
         "cCityLink": {
             "type": "link"
         },
+        "contacts": {
+            "required": true
+        },
         "cLostReason": {
-            "type": "multiEnum",
-            "storeArrayValues": true,
-            "default": [],
+            "type": "enum",
             "optionsReference": "Opportunity.cLostReason",
+            "default": "Financiamento Negado",
             "style": {},
+            "maxLength": 100,
             "isCustom": true
         }
     },

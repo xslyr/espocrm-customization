@@ -2,8 +2,9 @@
     "fields": {
         "assignedUser": "Corretor designado",
         "property": "Imóvel",
-        "request": "Solicitação",
-        "cLostReason": "Motivo de Perda"
+        "request": "Prospecção",
+        "cLostReason": "Motivo da Perda",
+        "cMessage": "Observação"
     },
     "labels": {
         "Create Opportunity": "Criar Oportunidade"
@@ -11,7 +12,7 @@
     "options": {
         "stage": {
             "Prospecting": "Prospectando",
-            "Proposed": "Proposta",
+            "Proposed": "Negociação",
             "Presented": "Documentação",
             "Closed Won": "Concluída",
             "Closed Lost": "Perdida"

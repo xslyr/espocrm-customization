@@ -1,9 +1,6 @@
 [
     {
-        "name": "cMessage"
-    },
-    {
-        "name": "probability"
+        "name": "status"
     },
     {
         "name": ":assignedUser"

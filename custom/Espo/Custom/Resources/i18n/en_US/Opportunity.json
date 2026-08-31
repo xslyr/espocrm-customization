@@ -1,6 +1,7 @@
 {
     "fields": {
-        "cLostReason": "Motivo de Perda"
+        "cLostReason": "Motivo da Perda",
+        "cMessage": "Observação"
     },
     "options": {
         "cLostReason": {

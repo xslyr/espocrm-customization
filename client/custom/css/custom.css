@@ -1,0 +1,15 @@
+.warning-field {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 6px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.danger-field {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 6px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}

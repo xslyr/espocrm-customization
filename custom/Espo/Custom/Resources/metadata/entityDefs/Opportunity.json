@@ -30,12 +30,10 @@
             "required": false
         },
         "request": {
-            "required": true
+            "required": false
         },
         "cLostReason": {
-            "type": "multiEnum",
-            "storeArrayValues": true,
-            "default": [],
+            "type": "enum",
             "options": [
                 "Financiamento Negado",
                 "Problema Documental",
@@ -72,7 +70,20 @@
                 "Desistência Pós Visita": null,
                 "Outro": null
             },
+            "default": "Financiamento Negado",
+            "maxLength": 100,
             "isCustom": true
+        },
+        "cMessage": {
+            "type": "wysiwyg",
+            "inlineEditDisabled": true,
+            "isCustom": true,
+            "readOnly": true
+        }
+    },
+    "hooks": {
+        "StatusSync": {
+            "className": "Espo\\Custom\\Hooks\\Opportunity\\StatusSync"
         }
     }
 }
