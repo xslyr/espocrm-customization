@@ -30,7 +30,7 @@
             "required": false
         },
         "request": {
-            "required": true
+            "required": false
         },
         "cLostReason": {
             "type": "multiEnum",
@@ -73,6 +73,11 @@
                 "Outro": null
             },
             "isCustom": true
+        }
+    },
+    "hooks": {
+        "StatusSync": {
+            "className": "Espo\\Custom\\Hooks\\Opportunity\\StatusSync"
         }
     }
 }

@@ -2,7 +2,7 @@
     "fields": {
         "assignedUser": "Corretor designado",
         "property": "Imóvel",
-        "request": "Solicitação",
+        "request": "Prospecção",
         "cLostReason": "Motivo de Perda"
     },
     "labels": {

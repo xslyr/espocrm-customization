@@ -45,6 +45,39 @@
                     }
                 ]
             }
+        },
+        "request": {
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "stage",
+                        "value": "Prospecting"
+                    }
+                ]
+            }
+        },
+        "contacts": {
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "notEquals",
+                        "attribute": "stage",
+                        "value": "Prospecting"
+                    }
+                ]
+            }
+        },
+        "property": {
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "notEquals",
+                        "attribute": "stage",
+                        "value": "Prospecting"
+                    }
+                ]
+            }
         }
     }
 }

@@ -257,6 +257,9 @@
             "optionsReference": "Opportunity.cLostReason",
             "style": {},
             "isCustom": true
+        },
+        "contacts": {
+            "required": true
         }
     },
     "collection": {
