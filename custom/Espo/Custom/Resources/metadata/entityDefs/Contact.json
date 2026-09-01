@@ -23,7 +23,7 @@
         "cFamilyIncome": {
             "type": "enum",
             "optionsReference": "Lead.cFamilyIncome",
-            "default": "Até R$6.799",
+            "default": null,
             "style": {},
             "maxLength": 100,
             "isCustom": true
