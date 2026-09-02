@@ -1,5 +1,11 @@
 [
     {
+        "name": "cContactType",
+        "width": 25,
+        "notSortable": true,
+        "align": "left"
+    },
+    {
         "name": "name",
         "link": true
     },
@@ -12,14 +18,6 @@
         "name": "phoneNumber",
         "width": 18,
         "notSortable": true
-    },
-    {
-        "name": "cFamilyIncome",
-        "width": 16
-    },
-    {
-        "name": "cInvestmentAvailability",
-        "width": 16
     },
     {
         "name": "createdAt",
