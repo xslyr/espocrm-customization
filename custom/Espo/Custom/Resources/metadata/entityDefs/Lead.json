@@ -15,49 +15,49 @@
             "required": false,
             "default": [],
             "optionsReference": "RealEstateProperty.type",
-            "style": {},
+            "style": [],
             "isCustom": true
         },
         "cFamilyIncome": {
             "type": "enum",
             "options": [
                 "",
-                "Até R$6.799",
-                "De R$6.800 a R$8.799",
-                "De R$8.800 a R$10.799",
-                "Mais de R$10.800"
+                "Até R$3.200",
+                "De R$3.200 a R$5.000",
+                "De R$5.000 a R$9.600",
+                "De R$9.600 a R$13.000",
+                "Acima de R$13.000"
             ],
             "style": {
                 "": null,
-                "Até R$6.799": null,
-                "De R$6.800 a R$8.799": null,
-                "De R$8.800 a R$10.799": null,
-                "Mais de R$10.800": null
+                "Até R$3.200": null,
+                "De R$3.200 a R$5.000": null,
+                "De R$5.000 a R$9.600": null,
+                "De R$9.600 a R$13.000": null,
+                "Acima de R$13.000": null
             },
             "default": null,
             "maxLength": 100,
             "isCustom": true
         },
         "cInvestmentAvailability": {
-            "type": "enum",
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "default": [],
             "options": [
-                "",
-                "Não Tenho",
-                "Tenho FGTS e valor de entrada",
-                "Tenho apenas FGTS",
-                "Tenho apenas o valor de entrada",
-                "Não sei informar"
+                "Possuo FGTS p/ entrada",
+                "Possuo um valor p/ entrada",
+                "Tenho imóvel pra permuta",
+                "Tenho carro/moto pra permuta",
+                "Possuo outros ativos pra entrada"
             ],
             "style": {
-                "": null,
-                "Não Tenho": null,
-                "Tenho FGTS e valor de entrada": null,
-                "Tenho apenas FGTS": null,
-                "Tenho apenas o valor de entrada": null,
-                "Não sei informar": null
+                "Possuo FGTS p/ entrada": null,
+                "Possuo um valor p/ entrada": null,
+                "Tenho imóvel pra permuta": null,
+                "Tenho carro/moto pra permuta": null,
+                "Possuo outros ativos pra entrada": null
             },
-            "default": null,
-            "maxLength": 100,
             "isCustom": true
         }
     },
