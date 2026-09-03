@@ -4,7 +4,8 @@
         "cAddressNeighbor": "Bairro",
         "cFamilyIncome": "Renda Familiar",
         "cInvestmentAvailability": "Disponibilidade de Entrada",
-        "cPropertyTypeTarget": "Tipo de Imóvel Buscado"
+        "cPropertyTypeTarget": "Tipo de Imóvel Buscado",
+        "cContactType": "Tipo"
     },
     "links": {
         "cCityLink": "Cidade/UF"
@@ -12,6 +13,12 @@
     "options": {
         "cFamilyIncome": [],
         "cInvestmentAvailability": [],
-        "cPropertyTypeTarget": []
+        "cPropertyTypeTarget": [],
+        "cContactType": {
+            "Proprietário de Imóvel": "Proprietário de Imóvel",
+            "Corretor": "Corretor",
+            "Imobiliária": "Imobiliária",
+            "Cliente": "Cliente"
+        }
     }
 }

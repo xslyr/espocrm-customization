@@ -23,7 +23,7 @@
         "cFamilyIncome": {
             "type": "enum",
             "optionsReference": "Lead.cFamilyIncome",
-            "default": "Até R$6.799",
+            "default": null,
             "style": {},
             "maxLength": 100,
             "isCustom": true
@@ -46,6 +46,24 @@
         "lastName": {
             "required": false,
             "options": []
+        },
+        "cContactType": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "default": [],
+            "options": [
+                "Proprietário de Imóvel",
+                "Corretor",
+                "Imobiliária",
+                "Cliente"
+            ],
+            "style": {
+                "Proprietário de Imóvel": "primary",
+                "Corretor": "danger",
+                "Imobiliária": "warning",
+                "Cliente": "success"
+            },
+            "isCustom": true
         }
     },
     "links": {

@@ -3,11 +3,16 @@
         "rows": [
             [
                 {
+                    "name": "cContactType"
+                },
+                {
                     "name": "firstName"
                 },
                 {
                     "name": "lastName"
-                },
+                }
+            ],
+            [
                 {
                     "name": "emailAddress"
                 },
